@@ -3,7 +3,7 @@ const { response, request } = require('express')
 const usuariosGet = (req = request, res = response) => {
     const {q, nombre, apiKey} = req.query
     res.json({
-        msg: 'get api controlador',
+        msg: 'get api Controlador',
         q,
         nombre,
         apiKey
